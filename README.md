@@ -51,6 +51,5 @@ euniq input.txt output.txt
 
 ## Current Limitations
 
-* **Memory Footprint ($O(U)$ space):** Unlike standard `uniq`, which operates in $O(1)$ memory by comparing only adjacent lines, `euniq` must keep all $U$ unique lines in RAM until EOF.
 * **No CLI Flags:** Currently acts as a focused proof of concept without GNU/POSIX flags such as `-c` (count), `-d` (only duplicates), or `-i` (case-insensitive comparison).
 * **Single-Threaded Execution** 
